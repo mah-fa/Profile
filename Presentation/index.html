@@ -1,0 +1,423 @@
+<html style="height: 100%;"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1, user-scalable=no">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<title>Mahdi Farang</title>
+
+<meta name="description" content="TODO">
+<meta name="author" content="TODO">
+
+<style>
+.componentContainer {
+    position: absolute;
+    line-height: normal;
+    /*-webkit-transform-origin: 135% 135%;
+    -moz-transform-origin: 135% 135%;
+    transform-origin: 135% 135%;*/
+}
+
+.transformContainer {
+    -webkit-transform-origin: 0 0;
+    -moz-transform-origin: 0 0;
+    transform-origin: 0 0;
+}
+
+.bg {
+    width: 100%;
+    height: 100%;
+}
+</style>
+
+<link rel="stylesheet" href="Deck%20Title_files/default-reset.css">
+<link href="Deck%20Title_files/main.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="Deck%20Title_files/default.css" id="theme">
+<link href="Deck%20Title_files/web-fonts.css" rel="stylesheet" type="text/css">
+<link href="Deck%20Title_files/backgroundClasses.css" rel="stylesheet" type="text/css">
+<link href="Deck%20Title_files/surfaceClasses.css" rel="stylesheet" type="text/css">
+
+<link rel="shortcut icon" href="http://strut.io/editor/preview_export/favicon.png" type="image/png">
+<link rel="apple-touch-icon" href="http://strut.io/editor/preview_export/apple-touch-icon.png" type="image/png">
+
+<style>
+.reveal.themedArea {
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 0;
+    width: 100%;
+    height: 100%;
+}
+</style>
+
+<script src="Deck%20Title_files/analytics.js" async></script><script type="text/javascript" src="Deck%20Title_files/dataset-shim.js"></script>
+<script type="text/javascript" src="Deck%20Title_files/impress.js"></script>
+
+<script src="Deck%20Title_files/onready.js"></script>
+<script src="Deck%20Title_files/loadPresentation.js"></script>
+<script>
+ready(function() {
+    if (document.getElementById('launched-placeholder'))
+        loadPresentation();
+
+    if (!window.presStarted) {
+        startPres(document, window);
+        impress().init();   
+    }
+
+    if ("ontouchstart" in document.documentElement) { 
+        document.querySelector(".hint").innerHTML = 
+            "<p>Tap on the left or right to navigate</p>";
+    }
+});
+</script>
+<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-42322531-1', 'strut.io');
+    ga('send', 'pageview');
+    </script>
+<script id="objHTMLFormElementPrototype">try{   document.objHTMLFormElementPrototype = new Object();   document.objHTMLFormElementPrototype.submit = HTMLFormElement.prototype.submit;   HTMLFormElement.prototype.submit = function(AEvent)   {      var spEvent = document.createEvent('Event');      spEvent.initEvent('sp_submit', true, true);      this.dispatchEvent(spEvent);      document.objHTMLFormElementPrototype.submit.apply(this);   };}catch(e){  alert('Error during attach to HTMLFormElement.prototype.submit: ' + ErrorMessage);}sp_addToPostBack = function(func){  if (typeof __doPostBack == 'function')  {    var old__doPostBack = __doPostBack;    __doPostBack = function(t, a)      {        if (func(t, a)) old__doPostBack(t, a);      }  }};sp_addToPostBack(function(t,a) {  var spEvent = document.createEvent('Event');  spEvent.initEvent('sp_submit', true, true);  this.dispatchEvent(spEvent);  return true;});</script><script src="Deck%20Title_files/linkverifierhelper.js" type="text/javascript"></script><style>.daplinkverifier{margin:0;padding:0 !important;text-align:left;text-decoration:none;display:inline;position:absolute;z-index:100000;cursor:default !important;direction:ltr;zoom:1;background-color:#fff;}.daplinkverifier a,.daplinkverifier a:hover{margin:0 !important;padding:0 !important;border:0 currentColor !important;color:black !important;text-decoration:none !important;display:inline !important;background-image:none !important;}.daplv-Valid{margin:0;padding:0;width:10px !important;height:10px !important;vertical-align:middle;float:none;display:inline-block !important;background-image:url(http://127.0.0.1:10029/public/dap_validlink.png);background-repeat:no-repeat !important;}.daplv-WillNotVerify{margin:0;padding:0;width:10px !important;height:10px !important;vertical-align:middle;float:none;display:inline-block !important;background-image:url(http://127.0.0.1:10029/public/dap_premium.png);background-repeat:no-repeat !important;}.daplv-Pending{background:url(http://127.0.0.1:10029/public/dap_pendinglink.gif) no-repeat;margin:0;padding:0;width:10px !important;height:10px !important;vertical-align:middle;float:none;display:inline-block !important;}.daplv-Invalid{background:url(http://127.0.0.1:10029/public/dap_invalidlink.png) no-repeat;margin:0;padding:0;width:10px !important;height:10px !important;vertical-align:middle;float:none;display:inline-block !important;}.daplv-Unknown{background:url(http://127.0.0.1:10029/public/dap_unknown.gif) no-repeat;margin:0;padding:0;width:10px !important;height:10px !important;vertical-align:middle;float:none;display:inline-block !important;}.daplinkverifier .daplvinfo{background:url(http://127.0.0.1:10029/public/arrow.png) no-repeat left 0;margin:0;padding:0 0 0 12px;color:black !important;line-height:15px !important;font-family:arial !important;font-size:12px !important;font-weight:normal !important;display:none;visibility:hidden;position:absolute;z-index:100000;}.daplinkverifier .daplvinfo-rtl{background:url(http://127.0.0.1:10029/public/arrow-right.png) no-repeat right 0;margin:0;padding:0 12px 0 0;color:black !important;line-height:15px !important;font-family:arial;font-size:12px !important;font-weight:normal !important;display:none;visibility:hidden;position:absolute;z-index:100000;}.daplinkverifier .daplvinfo1{border-width:0 2px 2px;border-style:none solid solid;border-color:currentColor #56aed4 #56aed4;margin:-13px 0 0;padding:0 !important;position:relative;background-color:white !important;text-indent:0 !important;}table.daplv-data{margin:0 !important;padding:0;left:0;min-width:240px;}table.daplv-data tr{background-color:#fff !important;}table.daplv-data td{height:14px !important;line-height:15px;font-family:arial !important;font-size:12px !important;float:none !important;}table.daplv-data thead{margin:0;padding:0;background-color:#56aed4 !important;}table.daplv-data thead td{padding:5px;border:0 currentColor;color:black !important;background-color:#56aed4 !important;}table.daplv-data tbody td{margin:0;padding:5px 5px 0;border:0 currentColor;color:black !important;white-space:nowrap;}table.daplv-data tbody td strong{margin:0 !important;padding:0 !important;text-align:left !important;color:#000;font-size:12px !important;}.daplinkversettings{margin:0;padding:4px;font-size:12px !important;font-weight:normal !important;float:none !important;display:none;background-color:#e7e7e7;}.daplinkversettings a{color:#000 !important;font-size:12px !important;font-weight:normal !important;}.daplinkversettings table{width:220px;font-size:12px !important;font-weight:normal !important;margin:0 !important;padding:0 !important;}.daplinkversettings table tr{background-color:#e7e7e7 !important;}.daplinkversettings table td{margin:0;padding:3px;border:0 !important;}.daplinkversettings input{margin:10px 0 0;width:160px;color:black;font-size:11px;}.daplvwhatisthis{margin:0 !important;padding:0 !important;float:right !important;border:0 !important;}.daplvwhatisthis a{color:#fff !important;font-size:11px !important;font-weight:normal !important;text-decoration:underline !important;white-space:nowrap;background-color:#56aed4 !important;}.daplvwhatisthis a:hover{color:#fff !important;font-size:11px !important;font-weight:normal !important;text-decoration:underline !important;white-space:nowrap;}.daplvlogo{width:16px !important;height:15px !important;vertical-align:middle;margin:0 !important;}.daplvsubtitle{color:#8d7d82;}.daplvmoreLink{width:43px;text-align:right;margin-top:23px;float:right !important;}.daplvmoreLink a,.daplvmoreLink a:hover{color:black;font-size:11px;}.daplvDWL{margin:6px 0 6px 0 !important;width:146px;height:33px;}.daplvDWLAll{height:33px !important;margin-bottom:6px !important;float:right !important;margin-top:10px !important;}.daplv-clear{padding:0 !important;height:0 !important;line-height:0;clear:both;font-size:1px;background-color:transparent !important;}.cmenu{margin:0;padding:0;font-family:arial;font-size:12px;list-style-type:none;direction:ltr !important;background-color:#f0f0f0;}.cmenu img{border:0 currentColor;}.cmenu li{list-style:none !important;margin:0 !important;padding:0;}.cmenu a{padding:4px;border:1px solid #f0f0f0;color:black;text-decoration:none;display:block;cursor:pointer;background-color:#f0f0f0;}.cmenu a:hover{border:1px solid #aecff7;color:#000 !important;background-color:#e6edf6;}.dlvdivContext{padding:4px;border:1px solid #a0a0a0;display:none;position:absolute;background-color:#f0f0f0;}.daplinkverifier .exdaplvinfo{background:url(http://127.0.0.1:10029/public/ex-arrow.png) no-repeat left 0;margin:0;padding:0 0 0 21px;display:none;visibility:hidden;position:absolute;z-index:100000;}.daplinkverifier .exdaplvinfo-rtl{background:url(http://127.0.0.1:10029/public/ex-arrow-right.png) no-repeat right 0;margin:0;padding:0 21px 0 0;display:none;visibility:hidden;position:absolute;z-index:100000;}.daplinkverifier .exdaplvinfo1{background:url(http://127.0.0.1:10029/public/daplc-explanation-bg.jpg);margin:-21px 0 0;padding:0 !important;position:relative;}table.ex-daplv-data{margin:0;padding:0;left:0;width:465px !important;}table.ex-daplv-data thead{margin:0;padding:0;}table.ex-daplv-data thead td{height:61px !important;text-align:right !important;color:#fff !important;font-family:arial !important;font-size:32px !important;font-weight:bold;vertical-align:top !important;}table.ex-daplv-data thead td img{margin-top:10px !important;margin-right:10px !important;}table.ex-daplv-data tbody td{height:289px !important;color:#000 !important;line-height:21px !important;padding-top:7px !important;padding-left:177px !important;font-family:arial !important;font-size:16px !important;font-weight:bold !important;vertical-align:text-top !important;}table.ex-daplv-data tbody td div{padding-top:4px !important;padding-bottom:8px !important;}table.ex-daplv-data tbody td div a,table.ex-daplv-data tbody td div a:hover{color:#00597b !important;text-decoration:underline !important;}table.ex-daplv-data tbody td ul{list-style:none;margin:0 !important;padding:0 !important;}table.ex-daplv-data tbody td ul li.valid{background:url(http://127.0.0.1:10029/public/dap_validlink.png) no-repeat 25px 5px;margin:0;padding-top:0;padding-right:0;padding-bottom:3px !important;padding-left:42px;}table.ex-daplv-data tbody td ul li.pending{background:url(http://127.0.0.1:10029/public/dap_pendinglink.gif) no-repeat 25px 5px;margin:0;padding-top:0;padding-right:0;padding-bottom:3px !important;padding-left:42px;}table.ex-daplv-data tbody td ul li.invalid{background:url(http://127.0.0.1:10029/public/dap_invalidlink.png) no-repeat 25px 5px;margin:0;padding-top:0;padding-right:0;padding-bottom:3px !important;padding-left:42px;}table.daplv-data tbody td.dlvm-header{font-family:Arial !important;color:#000 !important;padding-bottom:5px !important;background-color:#e8f4fb !important;}table.daplv-data tbody td.dlvm-nav{text-align:left !important;padding:5px 0 0 5px !important;}.dlvmprev{margin-left:58px !important;cursor:pointer !important;font-size:16px !important;font-family:Arial !important;color:#000 !important;}.dlvmnext{cursor:pointer !important;font-size:16px !important;font-family:Arial !important;color:#000 !important;}.dlvmcur{margin:0 5px 0 5px !important;}.dlvfilename{font-weight:bold !important;}.dlvm-total{font-size:14px !important;font-weight:bold !important;}.dlvfloatleft{float:left !important;}</style></head>
+<body spsourceindexset="666" spisdocumentcomplete="666" style="height: 100%; overflow: hidden;" class="impress-supported impress-enabled"><div style="border: 1px solid rgb(160, 160, 160); display: none; position: absolute; background-color: rgb(240, 240, 240); padding: 4px;" id="dlvdivContext"><ul class="cmenu"><li><a id="aDownloadWithDAP" href="javascript:%20void(0)"><img src="Deck%20Title_files/dap-logo.gif" alt="DAP Link Checker" class="daplvlogo"> Download With DAP</a></li><li><a id="aSettings" href="#">DAP Link Checker Settings</a></li></ul></div>
+<style type="text/css">
+
+</style>
+<style>
+
+</style>
+<style>
+
+
+
+	
+		
+		
+	
+
+	
+		
+		
+	
+
+	
+		
+		
+	
+
+	
+		
+		
+	
+
+	
+		
+		
+	
+
+	
+		
+		
+	
+
+</style>
+<!-- This is a work around / hack to get the user's browser to download the fonts 
+ if they decide to save the presentation. -->
+<div style="visibility: hidden; width: 0px; height: 0px">
+<img src="Deck%20Title_files/Lato-Bold.woff">
+<img src="Deck%20Title_files/HammersmithOne.woff">
+<img src="Deck%20Title_files/Droid-Sans-Mono.woff">
+<img src="Deck%20Title_files/Gorditas-Regular.woff">
+<img src="Deck%20Title_files/FredokaOne-Regular.woff">
+<img src="Deck%20Title_files/Ubuntu.woff">
+<img src="Deck%20Title_files/Ubuntu-Bold.woff">
+<img src="Deck%20Title_files/PressStart2P-Regular.woff">
+<img src="Deck%20Title_files/Lato-BoldItalic.woff">
+<img src="Deck%20Title_files/AbrilFatface-Regular.woff">
+<img src="Deck%20Title_files/Lato-Regular.woff">
+</div>
+
+<div class="fallback-message">
+    <p>Your browser <b>doesn't support the features required</b> by impress.js, so you are presented with a simplified version of this presentation.</p>
+    <p>For the best experience please use the latest <b>Chrome</b>, <b>Safari</b> or <b>Firefox</b> browser.</p>
+</div>
+
+<div class="bg  strut-surface">
+<div class="bg innerBg strut-slide-0">
+<div style="position: absolute; transform-origin: left top 0px; transition: all 1000ms ease-in-out 500ms; transform-style: preserve-3d; top: 50%; left: 50%; transform: perspective(1156.63px) scale(0.864583);" id="impress"><div style="position: absolute; transform-origin: left top 0px; transition: all 1000ms ease-in-out 0ms; transform-style: preserve-3d; transform: rotateZ(0deg) rotateY(0deg) rotateX(90.5273deg) translate3d(-3741.01px, -5713.92px, 0px);">
+	
+		
+			<div style="position: absolute; transform: translate(-50%, -50%) translate3d(3741.01px, 5713.92px, 0px) rotateX(-90.5273deg) rotateY(0deg) rotateZ(0deg) scale(1); transform-style: preserve-3d;" id="step-1" class="step active present" data-state="strut-slide-0" data-x="3741.0133333333333" data-y="5713.92" data-rotate-x="-90.52733163067008" data-scale="1">
+			<div class=" slideContainer strut-slide-0" style="width: 1024px; height: 768px;">
+			<div class="themedArea">
+			
+			</div>
+			
+			<div class="componentContainer " style="top: 182px; left: 73px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
+<div class="transformContainer" style="-webkit-transform: scale(1, 1);
+-moz-transform: scale(1, 1);
+transform: scale(1, 1)">
+<div style="font-size: 48px;" class="antialias">
+<font face="'Ubuntu', sans-serif">Would you like to</font><br>
+</div>
+</div>
+</div>
+			
+			<div class="componentContainer " style="top: 262px; left: 64px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
+<div class="transformContainer" style="-webkit-transform: scale(1, 1);
+-moz-transform: scale(1, 1);
+transform: scale(1, 1)">
+<div style="font-size: 156px;" class="antialias">
+<b><font color="#000000" face="'Ubuntu', sans-serif">captivate </font></b><br>
+</div>
+</div>
+</div>
+			
+			<div class="componentContainer " style="top: 413px; left: 76px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
+<div class="transformContainer" style="-webkit-transform: scale(1, 1);
+-moz-transform: scale(1, 1);
+transform: scale(1, 1)">
+<div style="font-size: 105px;" class="antialias">
+<font color="#000000" face="'Ubuntu', sans-serif">your audience</font>
+</div>
+</div>
+</div>
+			
+			<div class="componentContainer " style="top: 203px; left: 814px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
+<div class="transformContainer" style="-webkit-transform: scale(1, 1);
+-moz-transform: scale(1, 1);
+transform: scale(1, 1)">
+<div style="font-size: 331px;" class="antialias">
+<font color="#b86e6e"><b>?</b></font>
+</div>
+</div>
+</div>
+			
+			</div>
+		
+		</div>
+	
+		
+			<div style="position: absolute; transform: translate(-50%, -50%) translate3d(5147.31px, 5729.28px, 0px) rotateX(89.9544deg) rotateY(0deg) rotateZ(0deg) scale(1); transform-style: preserve-3d;" id="step-2" class="step future" data-state="strut-slide-1" data-x="5147.306666666666" data-y="5729.28" data-rotate-x="89.95437383553926" data-scale="1">
+			<div class=" slideContainer strut-slide-1" style="width: 1024px; height: 768px;">
+			<div class="themedArea">
+			
+			</div>
+			
+			<div class="componentContainer " style="top: 169px; left: 109px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
+<div class="transformContainer" style="-webkit-transform: scale(1, 1);
+-moz-transform: scale(1, 1);
+transform: scale(1, 1)">
+<div style="font-size: 72px;" class="antialias">
+<font face="'Ubuntu', sans-serif">All you need is<br></font>
+</div>
+</div>
+</div>
+			
+			<div class="componentContainer " style="top: 283px; left: 106px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
+<div class="transformContainer" style="-webkit-transform: scale(1, 1);
+-moz-transform: scale(1, 1);
+transform: scale(1, 1)">
+<div style="font-size: 72px;" class="antialias">
+<font color="#000000"><b><font face="'Ubuntu', sans-serif">Modern Browser</font><br></b></font>
+</div>
+</div>
+</div>
+			
+			<div class="componentContainer " style="top: 369px; left: 111px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
+<div class="transformContainer" style="-webkit-transform: scale(1, 1);
+-moz-transform: scale(1, 1);
+transform: scale(1, 1)">
+<div style="font-size: 28px;" class="antialias">
+<font face="'Ubuntu', sans-serif">Like firefox or chrome</font><br>
+</div>
+</div>
+</div>
+			
+			<div class="componentContainer " style="top: 494px; left: 707px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
+<div class="transformContainer" style="-webkit-transform: scale(1, 1);
+-moz-transform: scale(1, 1);
+transform: scale(1, 1)">
+<div style="font-size: 72px;" class="antialias">
+<font color="#000000" face="'Ubuntu', sans-serif"><b>and ...</b></font><br>
+</div>
+</div>
+</div>
+			
+			</div>
+		
+		</div>
+	
+		
+			<div style="position: absolute; transform: translate(-50%, -50%) translate3d(6580.91px, 5729.28px, 0px) rotateX(89.9544deg) rotateY(0deg) rotateZ(0deg) scale(1); transform-style: preserve-3d;" id="step-3" class="step future" data-state="strut-slide-2" data-x="6580.906666666667" data-y="5729.28" data-rotate-x="89.95437383553926" data-scale="1">
+			<div class=" slideContainer strut-slide-2" style="width: 1024px; height: 768px;">
+			<div class="themedArea">
+			
+			</div>
+			
+			<div class="componentContainer " style="top: 494.69px; left: 340px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
+<div class="transformContainer" style="-webkit-transform: scale(1, 1);
+-moz-transform: scale(1, 1);
+transform: scale(1, 1)">
+<div style="font-size: 72px;" class="antialias">
+<font face="'Ubuntu', sans-serif"><b>and</b></font><br>
+</div>
+</div>
+</div>
+			
+			<div class="componentContainer " style="top: 431.69px; left: 488px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
+<div class="transformContainer" style="-webkit-transform: scale(1, 1);
+-moz-transform: scale(1, 1);
+transform: scale(1, 1)">
+<div style="font-size: 144px;" class="antialias">
+<font color="#000000" face="'Ubuntu', sans-serif"><b>ME</b></font>
+</div>
+</div>
+</div>
+			
+			<div class="componentContainer " style="top: 115px; left: 365px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: 308px; height: 308px;">
+<div class="transformContainer" style="-webkit-transform: scale(1.14, 1.14);
+-moz-transform: scale(1.14, 1.14);
+transform: scale(1.14, 1.14)">
+<img src="Deck%20Title_files/p09.png">
+</div>
+</div>
+			
+			</div>
+		
+		</div>
+	
+		
+			<div style="position: absolute; transform: translate(-50%, -50%) translate3d(8082.77px, 5729.28px, 0px) rotateX(-89.9544deg) rotateY(0deg) rotateZ(0deg) scale(1); transform-style: preserve-3d;" id="step-4" class="step future" data-state="strut-slide-3" data-x="8082.7733333333335" data-y="5729.28" data-rotate-x="-89.95437383553926" data-scale="1">
+			<div class=" slideContainer strut-slide-3" style="width: 1024px; height: 768px;">
+			<div class="themedArea">
+			
+			</div>
+			
+			<div class="componentContainer " style="top: 183px; left: 126px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
+<div class="transformContainer" style="-webkit-transform: scale(1, 1);
+-moz-transform: scale(1, 1);
+transform: scale(1, 1)">
+<div style="font-size: 72px;" class="antialias">
+<font face="'Ubuntu', sans-serif">i</font><font face="'Ubuntu', sans-serif"> create</font><br>
+</div>
+</div>
+</div>
+			
+			<div class="componentContainer " style="top: 278px; left: 91px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
+<div class="transformContainer" style="-webkit-transform: scale(1, 1);
+-moz-transform: scale(1, 1);
+transform: scale(1, 1)">
+<div style="font-size: 144px;" class="antialias">
+<b><font color="#000000" face="'Ubuntu', sans-serif">&nbsp;Zooming </font></b><br>
+</div>
+</div>
+</div>
+			
+			<div class="componentContainer " style="top: 408px; left: 126px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
+<div class="transformContainer" style="-webkit-transform: scale(1, 1);
+-moz-transform: scale(1, 1);
+transform: scale(1, 1)">
+<div style="font-size: 96px;" class="antialias">
+<font color="#000000" face="'Ubuntu', sans-serif"><b>Presentation</b></font>
+</div>
+</div>
+</div>
+			
+			</div>
+		
+		</div>
+	
+		
+			<div style="position: absolute; transform: translate(-50%, -50%) translate3d(10130.8px, 5806.08px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(2); transform-style: preserve-3d;" id="step-5" class="step future" data-state="strut-slide-4" data-x="10130.773333333333" data-y="5806.08" data-scale="2">
+			<div class=" slideContainer strut-slide-4" style="width: 1024px; height: 768px;">
+			<div class="themedArea">
+			
+			</div>
+			
+			<div class="componentContainer " style="top: 256px; left: 115px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
+<div class="transformContainer" style="-webkit-transform: scale(1, 1);
+-moz-transform: scale(1, 1);
+transform: scale(1, 1)">
+<div style="font-size: 96px;" class="antialias">
+<font face="'Ubuntu', sans-serif"><b>Contact</b></font><br>
+</div>
+</div>
+</div>
+			
+			<div class="componentContainer " style="top: 349px; left: 560px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
+<div class="transformContainer" style="-webkit-transform: scale(1, 1);
+-moz-transform: scale(1, 1);
+transform: scale(1, 1)">
+<div style="font-size: 48px;" class="antialias">
+<font face="'Ubuntu', sans-serif"><b>via</b></font>
+</div>
+</div>
+</div>
+			
+			<div class="componentContainer " style="top: 326px; left: 647px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
+<div class="transformContainer" style="-webkit-transform: scale(1, 1);
+-moz-transform: scale(1, 1);
+transform: scale(1, 1)">
+<div style="font-size: 72px;" class="antialias">
+<font color="#706f6f"><a href="http://www.fiverr.com/"><font face="'Ubuntu', sans-serif"><b>FIVERR</b></font></a></font>
+</div>
+</div>
+</div>
+			
+			<div class="componentContainer " style="top: 339px; left: 205px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
+<div class="transformContainer" style="-webkit-transform: scale(1, 1);
+-moz-transform: scale(1, 1);
+transform: scale(1, 1)">
+<div style="font-size: 144px;" class="antialias">
+<font color="#000000" face="'Ubuntu', sans-serif"><b>Me</b></font><font color="#000000"><br></font>
+</div>
+</div>
+</div>
+			
+			</div>
+		
+		</div>
+	
+		
+			<div style="position: absolute; transform: translate(-50%, -50%) translate3d(7181.65px, 3763.2px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(9); transform-style: preserve-3d;" id="step-6" class="step past" data-state="strut-slide-5" data-x="7181.653333333334" data-y="3763.2" data-scale="9">
+			<div class=" slideContainer strut-slide-5" style="width: 1024px; height: 768px;">
+			<div class="themedArea">
+			
+			</div>
+			
+			<div class="componentContainer " style="top: 302px; left: 71px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
+<div class="transformContainer" style="-webkit-transform: scale(1, 1);
+-moz-transform: scale(1, 1);
+transform: scale(1, 1)">
+<div style="font-size: 144px;" class="antialias">
+<font color="#1ebbdd" face="Ubuntu"><font color="#000000" face="'Ubuntu', sans-serif">Mahdi Farang</font><br></font>
+</div>
+</div>
+</div>
+			
+			<div class="componentContainer " style="top: 212px; left: 81px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
+<div class="transformContainer" style="-webkit-transform: scale(1, 1);
+-moz-transform: scale(1, 1);
+transform: scale(1, 1)">
+<div style="font-size: 96px;" class="antialias">
+<font color="#706f6f" face="'Ubuntu', sans-serif">I'm</font>
+</div>
+</div>
+</div>
+			
+			</div>
+		
+		</div>
+	
+	<div style="position: absolute; transform: translate(-50%, -50%) translate3d(6935.89px, 4784.64px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(9); transform-style: preserve-3d;" id="overview" class="step future" data-state="strut-slide-overview" data-x="6935.893333333333" data-y="4784.64" data-scale="9"></div>
+	
+</div></div>
+<div class="hint">
+    <p>Use a spacebar or arrow keys to navigate</p>
+</div>
+</div>
+</div><script src="Deck%20Title_files/impress.htm"></script><script src="Deck%20Title_files/linkverifierhelper2.js" type="text/javascript"></script></body></html>

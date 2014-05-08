@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Mahdi Farang</title>
+
+    <!-- CSS -->
+    <link href="CSS/bootstrap.min.css"  rel="stylesheet"> <!-- Bootstrap -->
+    <link href="Fonts/typicons.font-2.0.3/src/font/typicons.min.css" rel="stylesheet">  <!--TYPICONS-->    
+    <link href="CSS/main3.css" rel="stylesheet" type="text/css"> <!--MainCSS-->
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+<body>
+<div class="container-fluid">
+  <div class="row">
+  
+  </div>
+  <div class="row">
+    <div class="col-sm-1"></div><!-- LeftMargin -->
+    <div class="col-sm-2 MyPicSocial"><!-- MyPic&Social / start -->
+      <div class="row"><!-- MyPic / start -->
+        <div class="col-sm-12">
+          <img src="Pics/01mypic.png" class="img-responsive center-block" alt="MY PICTURE">
+        </div>
+      </div><!-- MyPic / end -->
+      <div class="row Social"><!-- Social / start -->
+        <a href="https://twitter.com/MahdiFarang" target="_blank" class="SocialLink"><!-- Twitter -->
+          <span class="typcn typcn-social-twitter-circular SocialButton Twitter"></span>
+        </a>
+        <a href="https://dribbble.com/MahdiFarang" target="_blank" class="SocialLink"><!-- Dribbble -->
+          <span class="typcn typcn-social-dribbble SocialButton Dribbble"></span>
+        </a>
+        <a href="http://www.pinterest.com/mahdifarang/" target="_blank" class="SocialLink"><!-- Pinterest -->
+          <span class="typcn typcn-social-pinterest-circular SocialButton Pinterest"></span>
+        </a>
+
+      </div><!-- Social / end -->
+    </div><!-- MyPic&Social / end -->
+    <div class="col-sm-1 MyGutter hidden-xs"><!--  mygutter / start  -->
+      <img src="Pics/02mygutter.png" class="img-responsive center-block" alt="gutter">
+    </div><!--  mygutter / end  -->
+    <div class="col-sm-4 MyAbout"><!-- MyAbout&ContactMe / start -->
+      <div class="row"><!-- MyAbout / start -->
+        <div class="col-sm-12">
+          <h2>Hi</h2>
+          <p>I'm Mahdi Farang, freelance designer from Tehran, Iran. simplicity & briefness are my concern in design. I like             designing web and words(=Typography). I spend some time on photography and graphic too. Have a look around and don't
+             hesitate to contact me; 
+          </p>
+        </div>
+      </div><!-- MyAbout / end -->
+      <div class="row"><!-- ContactMe / start -->
+        <div class="col-sm-6">
+          <span class="typcn typcn-mail ContactsIcon"></span><span>&nbsp; m.farang[at]boun.cr &nbsp;&nbsp;</span>
+        </div>
+        <div class="col-sm-6">
+          <span class="typcn typcn-device-phone ContactsIcon"></span><span>+98 912 705 2181</span>
+        </div>
+      </div><!-- ContactMe / end -->
+    </div><!-- MyAbout&ContactMe / end -->
+    <div class="col-sm-1 MyGutter hidden-xs"><!--  mygutter / start  -->
+      <img src="Pics/03mygutter.png" class="img-responsive center-block" alt="gutter">
+    </div><!--  mygutter / end  -->
+    <div class="col-sm-2 MyPortfolio">
+      <br/>
+      <h2>Would You Like to See My Portfolio?</h2>
+      &nbsp;--&nbsp;
+      <a id="MyTooltipa" href="http://mahdifarang.cloudsite.ir/portfolio/" target="_blank" 
+      class="SocialLink" data-original-title="click !!" data-toggle="tooltip" data-placement="left">
+        <span class="typcn typcn-thumbs-up likesIcon"></span>
+      </a>
+      &nbsp;&nbsp;OR&nbsp;
+      <a id="MyTooltipb" href="" target="" 
+      class="SocialLink" data-original-title="Maybe later ?!" data-toggle="tooltip" data-placement="right">
+        <span class="typcn typcn-thumbs-down dislikesIcon"></span>
+      </a>
+      &nbsp;--&nbsp;&nbsp;
+    </div>
+    <div class="col-sm-1"></div><!-- RightMargin -->
+  </div>
+  <div class="row">
+    <div class="col-sm-6"></div>
+    <div class="col-sm-6">
+      <br/>
+      <span class="typcn typcn-bell bellicon"></span>
+      &nbsp;&nbsp;- do u like to have page like this for free?&nbsp;&nbsp; - i
+      <span class="typcn typcn-heart-full-outline heartIcon"></span>
+      <span id="AskQ" class="answerhide">
+      &nbsp;&nbsp;
+        <span class="typcn typcn-arrow-forward-outline arrowicon"></span>
+      &nbsp;ok, just contact me.
+      </span>
+    </div>
+  </div>
+  <div class="row nn">
+    <div class="col-sm-12 nn"></div>
+  </div>
+</div>
+
+<!-- JavaScript -->
+<script src="JS/jquery-2.1.0.min.js"></script>
+<script src="JS/bootstrap.min.js"></script>
+
+<script type="text/javascript">
+$(document).ready(function() {
+        $('#MyTooltipa').tooltip();
+		$('#MyTooltipb').tooltip();
+		$(".heartIcon").hover(function(){
+        $("#AskQ").toggleClass("answershow", 1000, "easeOutSine");
+          });
+        });
+</script>
+
+
+
+</body>
+</html>

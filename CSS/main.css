@@ -1,0 +1,91 @@
+@charset "utf-8";
+/* CSS Document */
+
+.MyPicSocial {
+	padding-top: 15%;
+	padding-bottom: 5%;
+}
+.Social {
+	text-align:center
+}
+.SocialButton {
+	font-size: 40px;
+	color: #000;
+}
+.Twitter:hover {
+	color: #36D7B7;
+}
+.Dribbble:hover {
+	color: #EF4836;
+}
+.Pinterest:hover {
+	color: #CF000F;
+}
+.atsignt:hover {
+	color: #F9690E;
+}
+.MinusButton {
+	font-size: 28px;
+	color: #000;
+}
+.SocialLink {
+	text-decoration:none !important;
+}
+.MyGutter {
+	padding-top: 15%;
+	padding-bottom: 5%;
+}
+.MyAbout {
+	padding-top: 15%;
+	padding-bottom: 5%;
+}
+.ContactsIcon {
+	font-size: 22px;
+}
+.MyPortfolio {
+	padding-top: 15%;
+	padding-bottom: 5%;
+}
+.likesIcon, .bellicon, .arrowicon {
+	font-size: 22px;
+	color: #333;
+}
+
+.likesIcon:hover
+{
+	color: #3C3;
+}
+
+.dislikesIcon {
+	font-size: 22px;
+	color: #333;
+}
+
+.dislikesIcon:hover
+{
+	color: #F00;
+}
+#MyTooltipa {
+}
+#MyTooltipb {
+}
+.heartIcon {
+	font-size: 17px;
+	color: #333;
+    cursor: pointer;
+}
+
+.heartIcon:hover
+{
+	color: #F00;
+}
+.answerhide {
+	visibility: hidden;
+	text-transform: uppercase;
+}
+.answershow {
+	visibility: visible;
+}
+#AskQ {
+}
+
